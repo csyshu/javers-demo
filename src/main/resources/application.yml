@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+  datasource:
+    url: jdbc:mysql://192.168.162.108:3306/javers?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    username: javers
+    password: javers
+    driver-class-name: com.mysql.jdbc.Driver
